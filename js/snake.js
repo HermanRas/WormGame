@@ -23,14 +23,19 @@ class snake {
         let x = this.body[this.body.length - 1].x;
         let y = this.body[this.body.length - 1].y;
         if (x > w - 1 || x < 0 || y > h - 1 || y < 0) {
-            return true;
+            console.log('END GAME LINE');
+            //return true;
         }
-        for (let i = 0; i < (this.body.length - 1); i++) {
+
+
+        for (let i = 0; i < this.body.length - 1; i++) {
             let part = this.body[i];
             if (part.x == x && part.y == y) {
+                console.log('END GAME HEAD IN BODY');
                 return true;
             }
         }
+
         return false;
     }
 

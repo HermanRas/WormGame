@@ -33,17 +33,16 @@ function keyPressed() {
 }
 
 function draw() {
+    scale(rez);
+    background(220);
+    if (snake.eatFood(food)) {
+        foodLocation();
+    }
+    snake.update();
+    snake.show();
     if (snake.endGame()) {
         background(255, 0, 0);
         noLoop();
-    }
-
-    scale(rez);
-    background(220);
-    snake.update();
-    snake.show();
-    if (snake.eatFood(food)) {
-        foodLocation();
     }
 
     noStroke();
