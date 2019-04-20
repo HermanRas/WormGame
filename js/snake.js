@@ -24,7 +24,7 @@ class snake {
         let y = this.body[this.body.length - 1].y;
         if (x > w - 1 || x < 0 || y > h - 1 || y < 0) {
             console.log('END GAME LINE');
-            //return true;
+            return true;
         }
 
 

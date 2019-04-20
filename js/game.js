@@ -2,6 +2,7 @@ let fps = 4;
 let rez = 20;
 let food;
 let w, h;
+let score = 0;
 
 function setup() {
     frameRate(fps);
@@ -10,12 +11,6 @@ function setup() {
     h = floor(height / rez);
     snake = new snake();
     foodLocation();
-}
-
-function foodLocation() {
-    let x = floor(random(w));
-    let y = floor(random(h));
-    food = createVector(x, y);
 }
 
 function keyPressed() {
@@ -35,17 +30,20 @@ function keyPressed() {
 function draw() {
     scale(rez);
     background(220);
+
     if (snake.eatFood(food)) {
         foodLocation();
+        addScore(1);
     }
+
     snake.update();
     snake.show();
+
     if (snake.endGame()) {
         background(255, 0, 0);
         noLoop();
+        showScore();
     }
 
-    noStroke();
-    fill(0, 255, 0);
-    rect(food.x, food.y, 1, 1);
+    showFood();
 }
