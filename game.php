@@ -17,7 +17,14 @@
 </head>
 
 <body>
+    <h1>SNAKE !</h1>
+    USE YOUR ARROWS...
+    <form name="scoreboard" id="scoreboard" method="POST" action="index.php">
+        SCORE: <input type="text" name="score" id="score" readonly value="0">
+        <input type="hidden" name="name" value="<?php echo $_GET["name"]; ?>">
+        <input type="submit" value="Save">
 
+    </form> <br>
 </body>
 
 </html>

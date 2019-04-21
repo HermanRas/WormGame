@@ -1,7 +1,8 @@
 function addScore(points) {
     score += points;
+    document.getElementById("score").value = score;
 }
 
 function showScore() {
-    alert('YOU SCORED: ' + score);
+    document.getElementById("scoreboard").submit;
 }

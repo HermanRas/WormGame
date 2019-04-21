@@ -6,7 +6,7 @@ let score = 0;
 
 function setup() {
     frameRate(fps);
-    createCanvas(400, 400);
+    createCanvas(300, 300);
     w = floor(width / rez);
     h = floor(height / rez);
     snake = new snake();
@@ -37,6 +37,7 @@ function draw() {
     }
 
     snake.update();
+    showFood();
     snake.show();
 
     if (snake.endGame()) {
@@ -44,6 +45,4 @@ function draw() {
         noLoop();
         showScore();
     }
-
-    showFood();
 }

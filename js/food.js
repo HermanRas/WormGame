@@ -6,6 +6,6 @@ function foodLocation() {
 
 function showFood() {
     noStroke();
-    fill(0, 255, 0);
-    rect(food.x, food.y, 1, 1);
+    fill(0, 150, 0);
+    ellipse(food.x + 0.5, food.y + 0.5, 1);
 }
