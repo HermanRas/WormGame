@@ -26,7 +26,8 @@
             $data = array();
             }
         $data[$_POST['name']] = $_POST['score'];
-        file_put_contents("./score.json",json_encode($data));
+        arsort($data);
+        file_put_contents("./score.json",json_encode( $data ));
     }
     if (file_exists("./score.json")){
         $data =  json_decode(file_get_contents("./score.json"),true);
