@@ -59,9 +59,20 @@ class snake {
 
     show() {
         for (let i = 0; i < this.body.length; i++) {
-            fill(0);
-            noStroke();
-            rect(this.body[i].x, this.body[i].y, 1, 1);
+            fill(0, 128, 0);
+            if (i == this.body.length - 1) {
+                fill(255, 255, 0);
+                noStroke();
+                ellipseMode(CORNER);
+                ellipse(this.body[i].x, this.body[i].y, 1, 1);
+                fill(0);
+                ellipse(this.body[i].x, this.body[i].y, 0.5, 0.5);
+                ellipse(this.body[i].x + 0.5, this.body[i].y, 0.5, 0.5);
+            } else {
+                noStroke();
+                ellipseMode(CORNER);
+                ellipse(this.body[i].x, this.body[i].y, 1, 1);
+            }
         }
     }
 }

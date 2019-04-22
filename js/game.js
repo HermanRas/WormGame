@@ -4,6 +4,12 @@ let food;
 let w, h;
 let score = 0;
 
+let appleImg;
+function preload() {
+    appleImg = loadImage('IMG/apple.png');
+}
+
+
 function setup() {
     frameRate(fps);
     createCanvas(300, 300);
