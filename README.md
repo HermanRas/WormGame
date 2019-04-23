@@ -20,13 +20,13 @@
 
 
 ## Index
-#Controls
+# Controls
 - Click on the game window and user UP / DOWN / LEFT / RIGHT to move the worm around ~
-#ScoreDB
+# ScoreDB
 - Score will only save when you hit save, you can restart the game by hitting the F5 key on PC or Pulling Down on phone.
 - delete score.json to clear score history
 - edit score.json to cheat
 
-#ScreenShots
+# ScreenShots
  - <img src="https://github.com/HermanRas/WormGame/blob/master/ScreenShots/Menu.png" alt="#wormGame-Menu">
  - <img src="https://github.com/HermanRas/WormGame/blob/master/ScreenShots/Game.png" alt="#wormGame-Game">
