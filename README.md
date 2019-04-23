@@ -1,14 +1,14 @@
-# SNAKE GAME!
-<img src=".." alt="#SnakeGameLogo">
+# worm GAME!
+<img src=".." alt="#WormGameLogo">
 
 ### Latest Release
- - [!["Latest Release"](https://img.shields.io/github/release/hermanras/snakegame.svg)](https://github.com/HermanRas/snakegame/releases)
-[!["Release Date"](https://img.shields.io/github/release-date/hermanras/snakegame.svg)](https://github.com/HermanRas/snakegame/releases)
+ - [!["Latest Release"](https://img.shields.io/github/release/hermanras/wormgame.svg)](https://github.com/HermanRas/wormgame/releases)
+[!["Release Date"](https://img.shields.io/github/release-date/hermanras/wormgame.svg)](https://github.com/HermanRas/wormgame/releases)
 
 ### Latest Dev Build
- - [!["Latest Release"](https://img.shields.io/github/release-pre/hermanras/snakegame.svg)](https://github.com/HermanRas/snakegame/releases)
-[!["Release Date"](https://img.shields.io/github/release-date-pre/hermanras/snakegame.svg)](https://github.com/HermanRas/snakegame/releases)
-[!["Last Updated"](https://img.shields.io/github/last-commit/hermanras/snakegame.svg)](https://github.com/HermanRas/snakegame/releases)
+ - [!["Latest Release"](https://img.shields.io/github/release-pre/hermanras/wormgame.svg)](https://github.com/HermanRas/wormgame/releases)
+[!["Release Date"](https://img.shields.io/github/release-date-pre/hermanras/wormgame.svg)](https://github.com/HermanRas/wormgame/releases)
+[!["Last Updated"](https://img.shields.io/github/last-commit/hermanras/wormgame.svg)](https://github.com/HermanRas/wormgame/releases)
 
 ### Requirements
  - [!["PHP 7.1"](https://img.shields.io/badge/PHP-7.1%5E-blue.svg)](https://www.php.net/)
@@ -21,12 +21,12 @@
 
 ## Index
 #Controls
-- Click on the game window and user UP / DOWN / LEFT / RIGHT to move the snake around ~
+- Click on the game window and user UP / DOWN / LEFT / RIGHT to move the worm around ~
 #ScoreDB
 - Score will only save when you hit save, you can restart the game by hitting the F5 key on PC or Pulling Down on phone.
 - delete score.json to clear score history
 - edit score.json to cheat
 
 #ScreenShots
-<img src=".." alt="#SnakeGame-Menu">
-<img src=".." alt="#SnakeGame-Game">
+<img src=".." alt="#wormGame-Menu">
+<img src=".." alt="#wormGame-Game">

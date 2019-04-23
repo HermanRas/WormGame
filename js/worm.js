@@ -1,4 +1,4 @@
-class Worm {
+class worm {
 
     constructor() {
         this.len = 1

@@ -28,8 +28,6 @@ function keyPressed() {
         worm.setDir(0, -1);
     } else if (keyCode === DOWN_ARROW) {
         worm.setDir(0, 1);
-    } else if (key == ' ') {
-        worm.grow();
     }
 }
 
