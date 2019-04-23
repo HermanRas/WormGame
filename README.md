@@ -1,4 +1,4 @@
-# worm GAME!
+# WORM GAME!
 <img src="https://github.com/HermanRas/WormGame/blob/master/ScreenShots/Logo.png" alt="#WormGameLogo">
 
 ### Latest Release
