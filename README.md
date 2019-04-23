@@ -28,5 +28,5 @@
 - edit score.json to cheat
 
 #ScreenShots
-<img src="https://github.com/HermanRas/WormGame/blob/master/ScreenShots/Menu.png" alt="#wormGame-Menu">
-<img src="https://github.com/HermanRas/WormGame/blob/master/ScreenShots/Game.png" alt="#wormGame-Game">
+ - <img src="https://github.com/HermanRas/WormGame/blob/master/ScreenShots/Menu.png" alt="#wormGame-Menu">
+ - <img src="https://github.com/HermanRas/WormGame/blob/master/ScreenShots/Game.png" alt="#wormGame-Game">
