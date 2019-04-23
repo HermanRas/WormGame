@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
-    <title>Snake - Game</title>
+    <title>Worm - Game</title>
 </head>
 
 <body>
-    <h1>SNAKE !</h1>
+    <h1>Worm !</h1>
     ENTER YOUR NAME TO START<br>
     <form method="GET" action="game.php">
         <input type="text" name="name" placeholder="Your Name Here" required="">

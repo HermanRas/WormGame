@@ -15,21 +15,21 @@ function setup() {
     createCanvas(300, 300);
     w = floor(width / rez);
     h = floor(height / rez);
-    snake = new snake();
+    worm = new worm();
     foodLocation();
 }
 
 function keyPressed() {
     if (keyCode === LEFT_ARROW) {
-        snake.setDir(-1, 0);
+        worm.setDir(-1, 0);
     } else if (keyCode === RIGHT_ARROW) {
-        snake.setDir(1, 0);
+        worm.setDir(1, 0);
     } else if (keyCode === UP_ARROW) {
-        snake.setDir(0, -1);
+        worm.setDir(0, -1);
     } else if (keyCode === DOWN_ARROW) {
-        snake.setDir(0, 1);
+        worm.setDir(0, 1);
     } else if (key == ' ') {
-        snake.grow();
+        worm.grow();
     }
 }
 
@@ -37,16 +37,16 @@ function draw() {
     scale(rez);
     background(220);
 
-    if (snake.eatFood(food)) {
+    if (worm.eatFood(food)) {
         foodLocation();
         addScore(1);
     }
 
-    snake.update();
+    worm.update();
     showFood();
-    snake.show();
+    worm.show();
 
-    if (snake.endGame()) {
+    if (worm.endGame()) {
         background(255, 0, 0);
         noLoop();
         showScore();

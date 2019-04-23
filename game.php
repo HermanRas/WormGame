@@ -10,14 +10,14 @@
     <script src="js/p5.min.js"></script>
     <script src="js/p5.dom.min.js"></script>
     <script src="js/food.js"></script>
-    <script src="js/snake.js"></script>
+    <script src="js/Worm.js"></script>
     <script src="js/score.js"></script>
     <script src="js/game.js"></script>
-    <title>Snake - Game</title>
+    <title>Worm - Game</title>
 </head>
 
 <body>
-    <h1>SNAKE !</h1>
+    <h1>Worm !</h1>
     USE YOUR ARROWS...
     <form name="scoreboard" id="scoreboard" method="POST" action="index.php">
         SCORE: <input type="text" name="score" id="score" readonly value="0">
