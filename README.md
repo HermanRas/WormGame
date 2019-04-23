@@ -1,5 +1,5 @@
 # worm GAME!
-<img src=".." alt="#WormGameLogo">
+<img src="https://github.com/HermanRas/WormGame/blob/master/ScreenShots/Logo.png" alt="#WormGameLogo">
 
 ### Latest Release
  - [!["Latest Release"](https://img.shields.io/github/release/hermanras/wormgame.svg)](https://github.com/HermanRas/wormgame/releases)
@@ -28,5 +28,5 @@
 - edit score.json to cheat
 
 #ScreenShots
-<img src=".." alt="#wormGame-Menu">
-<img src=".." alt="#wormGame-Game">
+<img src="https://github.com/HermanRas/WormGame/blob/master/ScreenShots/Menu.png" alt="#wormGame-Menu">
+<img src="https://github.com/HermanRas/WormGame/blob/master/ScreenShots/Game.png" alt="#wormGame-Game">
