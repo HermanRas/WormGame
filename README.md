@@ -1,6 +1,9 @@
 # WORM GAME!
 <img src="https://github.com/HermanRas/WormGame/blob/master/ScreenShots/Logo.png" alt="#WormGameLogo">
 
+# Full CREDIT to @CodeTrain on youtube:
+https://www.youtube.com/watch?v=OMoVcohRgZA
+
 ### Latest Release
  - [!["Latest Release"](https://img.shields.io/github/release/hermanras/wormgame.svg)](https://github.com/HermanRas/wormgame/releases)
 [!["Release Date"](https://img.shields.io/github/release-date/hermanras/wormgame.svg)](https://github.com/HermanRas/wormgame/releases)
